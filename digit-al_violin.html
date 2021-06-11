@@ -78,8 +78,9 @@
 				<header class="major">
 					<h2>Implementation</h2>
 				</header>
+				<span class="image right"><img src="DMID/images/on_hand.jpg" alt="The digit-al violin on a left hand" /></span>
 				<p>To achieve my goals, I made an instrument out of two batting gloves.</p>
-
+				
 				<p>The right hand controls the creation of sound. The musician touches a finger to their thumb in order
 					to play on one of
 					the violin strings (i.e. G, D, A, E), where the index finger selects the lowest string. This is
@@ -91,12 +92,13 @@
 					touch their finger to
 					their thumb to increase the pitch. This is a very similar motion to the left-hand operation of a
 					traditional violin.</p>
-				The instrument produces sound via a Max patch on a laptop. The laptop receives the inputs from the
+				<p>The instrument produces sound via a Max patch on a laptop. The laptop receives the inputs from the
 				musician via a serial
 				connection to an Arduino, which is hooked up with wires to the gloves. Every fingertip of the gloves has
 				a paper
 				fastener on it, which is soldered to the wires to the Arduino.
-
+				</p>
+<span class="image left"><img src="DMID/images/schematic.png" alt="Schematic of one finger's circuit" /></span>
 				<p>As far as the circuit logic goes, the Arduino gives 5V to each hand's thumb, and then listens for
 					digital input on each
 					finger. When a finger is touching the thumb, it will report a high voltage to the Arduino, but if
@@ -106,8 +108,7 @@
 					would have three more fingers with resistors normally connecting to ground, and then the whole
 					diagram is duplicated for
 					the second hand.</p>
-				<span class="image main"><img src="DMID/images/schematic.png"
-						alt="Schematic of one finger's circuit" /></span>
+			
 			</section>
 
 			<!-- Second Section -->
@@ -181,8 +182,10 @@
 						have produced an instrument that was such a good fit for my body and my abilities.</p>
 
 					<h3>Future </h3>
-
+					<span class="image right"><img src="DMID/images/broken.jpg"
+						alt="A broken paper fastener from the digit-al violin" /></span>
 					<p>In the future, the digit-al violin would receive several modifications.</p>
+					
 
 					<p>First, I would choose more durable fingertip targets than paper fasteners. In the process of
 						practicing for my demo
